@@ -1,0 +1,30 @@
+.task-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.task-checkbox {
+  margin-right: 10px;
+}
+
+.task-box-text.task-box-text--done {
+  color: rgb(94, 94, 94);
+  text-decoration: line-through;
+}
+
+.task-edit-icon,
+.task-done-icon {
+  margin-right: 15px;
+}
+
+.task-edit-input {
+  height: 20px;
+  width: 300px;
+  padding-left: 10px;
+  font-size: 16px;
+}
